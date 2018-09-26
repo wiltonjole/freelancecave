@@ -1,0 +1,213 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#leftmenu {
+  list-style-type: none;
+}
+
+
+
+#leftmenu li{
+  background-color: skyblue;
+  padding: 5px;
+  margin-bottom: 4px;
+  width: 50%;
+  
+}
+
+.error{
+  color: red;
+}
+
+
+.fixed-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("pro1.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.fixed-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.fixed-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.input-group.md-form.form-sm.form-2 input.red-border  {
+    border: 1px solid #ef9a9a;
+}
+
+
+
+.btn-search {
+	  background: #424242;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #1c1c1c;
+	}
+
+	
+
+.search-text{
+	margin-top:50px;
+	background-color:#7dabdb;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+	
+.search-text .input-search{
+	height:45px;
+	width:400px;
+	padding-left:20px;
+    color:#333;
+} 
+
+.search-text .btn-search{
+	background-color:#7dabdb;
+	border:1px solid #FFF;
+	color:#FFF;
+	padding: 11px 22px;
+}
+
+/* I dont need to resize any pics, These will be used to resize any of my pics
+.imgfooterresizer{
+	
+	width: 30px;
+	height:30px;
+	
+	
+}
+*/
+
+/* The below will be used to align all the how it works to center*/
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.search-text  .btn-search:hover{
+	background-color:#FFF;
+	color:#7dabdb;
+}
+
+.copyright{
+    background-color:#f0f0f0;
+}
+
+.copyright p{
+   margin:15px 0px;
+}
+
+footer{
+	background-color:#222222;
+	padding: 60px 0px;
+}
+
+* {box-sizing: border-box;}
+
+.box {
+   display: flex;
+   align-items:right;
+}
+
+body{padding-top:30px;}
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+/* Mr Yemi taught us the importance of using the word !important, I intend to make my modal faint a bit so the logo in the modal register can be meaniful  But it did not work
+
+I need to as more quesitons on that 
+.modal-backdrop
+{
+    opacity: !important;
+}
+*/
+
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 20px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+
+  /* Decided to create a new btn because the previous one was effecting the backend 
+  buttons making them too bigger */
+
+
+
+
+/* The following code will be used for a more lovely over lapping text on that bg image */
+ 
+h2 {
+ font-size: 70px;
+ line-height: 90px;
+ font-family: Helvetica, sans-serif;
+ font-weight: bold;
+ text-align: center;
+}
+
+.btn-text-bolder {
+ font-size: 70px;
+ line-height: 90px;
+ font-family: Helvetica, sans-serif;
+ font-weight: bold;
+ text-align: center;
+}
